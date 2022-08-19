@@ -16,7 +16,10 @@
         <item name="boxStrokeColor">@color/stroke_colore</item>
         <item name="materialThemeOverlay">@style/Widget.App.EditTextLayout</item>
     </style>
-
+<style name="profileImg">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">24dp</item>
+</style>
     <style name="Widget.App.EditTextLayout" parent="">
         <item name="editTextStyle">@style/MyTextInputEditText</item>
     </style>

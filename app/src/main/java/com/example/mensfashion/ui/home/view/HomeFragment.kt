@@ -1,4 +1,4 @@
-package com.example.mensfashion.ui.home
+package com.example.mensfashion.ui.home.view
 
 import android.os.Bundle
 import com.example.mensfashion.core.SecureSharedPreferences

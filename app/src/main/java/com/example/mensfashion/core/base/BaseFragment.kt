@@ -19,6 +19,7 @@ abstract class BaseFragment<bindingObj : ViewDataBinding> : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         _binding = setViewBinding()
+
         _binding?.let {
             it.executePendingBindings()
             it.lifecycleOwner = viewLifecycleOwner
