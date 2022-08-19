@@ -45,7 +45,6 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="64dp"
                 android:fontFamily="@font/adamina"
-                android:inputType="textCapCharacters|textMultiLine"
                 android:lines="2"
                 android:maxLength="14"
                 android:text="Men's Fashion Wears"
@@ -56,6 +55,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_search"
                 android:layout_width="285dp"
                 android:layout_height="56dp"
                 android:layout_marginStart="16dp"
@@ -92,13 +92,13 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_fasion"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="200dp"
+                android:layout_marginTop="20dp"
                 android:scrollbars="horizontal"
                 app:layoutManager="GridLayoutManager"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/card_search"
+                app:layout_constraintTop_toBottomOf="@+id/card_filtter"
                 app:spanCount="2"
                 tools:itemCount="2"
                 tools:listitem="@layout/item_rv_hom" />

@@ -23,7 +23,7 @@
     <item
         android:id="@+id/profileFragment"
         android:title="@string/profile"
-        android:icon="@drawable/ic__person_24"
+        android:icon="@drawable/ic_person_24"
 
         />
 </menu>

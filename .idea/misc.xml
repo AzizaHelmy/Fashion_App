@@ -5,10 +5,11 @@
       <map>
         <entry key="..\:/sours/4me/fashionApp/app/src/main/res/drawable/btn_shape.xml" value="0.168" />
         <entry key="..\:/sours/4me/fashionApp/app/src/main/res/drawable/circle_shap.xml" value="0.153" />
+        <entry key="..\:/sours/4me/fashionApp/app/src/main/res/drawable/ic__person_24.xml" value="0.1105" />
         <entry key="..\:/sours/4me/fashionApp/app/src/main/res/drawable/ic_person.xml" value="0.114" />
         <entry key="..\:/sours/4me/fashionApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/sours/4me/fashionApp/app/src/main/res/layout/activity_user.xml" value="0.22" />
-        <entry key="..\:/sours/4me/fashionApp/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/sours/4me/fashionApp/app/src/main/res/layout/fragment_home.xml" value="0.16" />
         <entry key="..\:/sours/4me/fashionApp/app/src/main/res/layout/fragment_login.xml" value="0.22" />
         <entry key="..\:/sours/4me/fashionApp/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
         <entry key="..\:/sours/4me/fashionApp/app/src/main/res/layout/fragment_register.xml" value="0.22" />

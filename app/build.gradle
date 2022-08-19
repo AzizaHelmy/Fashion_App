@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.mensfashion"
-        minSdkVersion 23
+        minSdkVersion 28
         targetSdkVersion 32
         versionCode 1
         versionName "1.0"

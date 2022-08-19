@@ -16,10 +16,12 @@
         <item name="boxStrokeColor">@color/stroke_colore</item>
         <item name="materialThemeOverlay">@style/Widget.App.EditTextLayout</item>
     </style>
-<style name="profileImg">
-    <item name="cornerFamily">rounded</item>
-    <item name="cornerSize">24dp</item>
-</style>
+
+    <style name="profileImg">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
     <style name="Widget.App.EditTextLayout" parent="">
         <item name="editTextStyle">@style/MyTextInputEditText</item>
     </style>
@@ -37,9 +39,9 @@
         <item name="android:windowBackground">@color/orangy</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
-        <item name="android:windowLightStatusBar" >false</item>
-        <item name="android:windowTranslucentNavigation" >true</item>
-        <item name="android:statusBarColor" >@color/orangy</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@color/orangy</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
 
